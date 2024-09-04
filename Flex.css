@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  align-items: center;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.Content {
+  display: flex;
+}
+
+.Left {
+  order: 0;
+  display: flex;
+}
+
+.Middle {
+  order: 1;
+  display: flex;
+}
+
+.Right {
+  order: 2;
+  display: flex;
+}
+
+body > *,
+.Content > * {
+  border: 3px solid black;
+}
